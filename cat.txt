@@ -1,0 +1,355 @@
+DEBUG (0): Application booted (0).
+DEBUG (1): Application booted (1).
+DEBUG (2): Application booted (2).
+
+DEBUG (0): =========Base Station Statistics============
+DEBUG (0): Total Received Packages:0
+DEBUG (0): Avgerage Delivery Delay:-nan
+DEBUG (0): Avgerage Throughput:-nan
+DEBUG (0): ============================================
+
+DEBUG (3): Application booted (3).
+DEBUG (1): Generated Packet. source: 1, destination: 0, timestamp: 250
+DEBUG (1): SendBlink to: 0
+105
+1
+DEBUG (0): 
+Route is :
+1	0	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	105	0	0	0	DEBUG (4): Application booted (4).
+DEBUG (4): QOS_ATTACK: DROP
+DEBUG (2): Generated Packet. source: 2, destination: 0, timestamp: 250
+DEBUG (2): SendBlink to: 0
+204
+1
+DEBUG (0): 
+Route is :
+2	0	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	204	0	0	0	DEBUG (5): Application booted (5).
+DEBUG (3): Generated Packet. source: 3, destination: 1, timestamp: 250
+DEBUG (3): SendBlink to: 1
+DEBUG (1): QUEUE it to be relayed to 400 0
+DEBUG (1): SendBlink to: 0
+314
+1
+DEBUG (0): 
+Route is :
+3	1	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	209	105	0	0	DEBUG (6): Application booted (6).
+DEBUG (4): Generated Packet. source: 4, destination: 1, timestamp: 250
+DEBUG (4): SendBlink to: 1
+DEBUG (1): QUEUE it to be relayed to 400 0
+DEBUG (1): SendBlink to: 0
+160
+1
+DEBUG (0): 
+Route is :
+4	1	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	62	98	0	0	DEBUG (7): Application booted (7).
+DEBUG (5): Generated Packet. source: 5, destination: 2, timestamp: 250
+DEBUG (5): SendBlink to: 2
+DEBUG (2): QUEUE it to be relayed to 400 0
+DEBUG (2): SendBlink to: 0
+258
+1
+DEBUG (0): 
+Route is :
+5	2	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	53	205	0	0	DEBUG (8): Application booted (8).
+DEBUG (6): Generated Packet. source: 6, destination: 2, timestamp: 250
+DEBUG (6): SendBlink to: 2
+DEBUG (2): QUEUE it to be relayed to 400 0
+DEBUG (2): SendBlink to: 0
+367
+1
+DEBUG (0): 
+Route is :
+6	2	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	159	208	0	0	DEBUG (9): Application booted (9).
+DEBUG (9): QOS_ATTACK: DELAY
+DEBUG (7): Generated Packet. source: 7, destination: 4, timestamp: 250
+DEBUG (7): SendBlink to: 4
+DEBUG (4): QUEUE it to be relayed to 400 1
+DroppingDEBUG (4): SendBlink to: 1
+DEBUG (1): QUEUE it to be relayed to 400 0
+DEBUG (1): SendBlink to: 0
+222
+1
+DEBUG (0): 
+Route is :
+7	104	1	0	0	DEBUG (0): 
+Hop Delays are :
+0	62	61	99	0	DEBUG (10): Application booted (10).
+DEBUG (10): QOS_ATTACK: INJECT
+DEBUG (8): Generated Packet. source: 8, destination: 6, timestamp: 250
+DEBUG (8): SendBlink to: 6
+DEBUG (6): QUEUE it to be relayed to 400 2
+DEBUG (6): SendBlink to: 2
+DEBUG (2): QUEUE it to be relayed to 400 0
+DEBUG (2): SendBlink to: 0
+582
+1
+DEBUG (0): 
+Route is :
+8	6	2	0	0	DEBUG (0): 
+Hop Delays are :
+0	213	158	211	0	DEBUG (11): Application booted (11).
+DEBUG (9): Generated Packet. source: 9, destination: 0, timestamp: 250
+DEBUG (9): SendBlink to: 0
+149
+1
+DEBUG (0): 
+Route is :
+9	0	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	149	0	0	0	DEBUG (12): Application booted (12).
+DEBUG (10): Generated Packet. source: 10, destination: 0, timestamp: 250
+DEBUG (10): SendBlink to: 0
+4
+1
+DEBUG (0): 
+Route is :
+10	0	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	4	0	0	0	DEBUG (13): Application booted (13).
+DEBUG (11): Generated Packet. source: 11, destination: 12, timestamp: 250
+DEBUG (11): SendBlink to: 12
+DEBUG (12): QUEUE it to be relayed to 400 0
+DEBUG (12): SendBlink to: 0
+360
+1
+DEBUG (0): 
+Route is :
+11	12	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	159	201	0	0	DEBUG (14): Application booted (14).
+DEBUG (12): Generated Packet. source: 12, destination: 0, timestamp: 250
+DEBUG (12): SendBlink to: 0
+202
+1
+DEBUG (0): 
+Route is :
+12	0	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	202	0	0	0	DEBUG (15): Application booted (15).
+DEBUG (13): Generated Packet. source: 13, destination: 12, timestamp: 250
+DEBUG (13): SendBlink to: 12
+DEBUG (12): QUEUE it to be relayed to 400 0
+DEBUG (12): SendBlink to: 0
+312
+1
+DEBUG (0): 
+Route is :
+13	12	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	109	203	0	0	DEBUG (16): Application booted (16).
+DEBUG (14): Generated Packet. source: 14, destination: 12, timestamp: 250
+DEBUG (14): SendBlink to: 12
+DEBUG (12): QUEUE it to be relayed to 400 0
+DEBUG (12): SendBlink to: 0
+420
+1
+DEBUG (0): 
+Route is :
+14	12	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	214	206	0	0	DEBUG (17): Application booted (17).
+DEBUG (15): Generated Packet. source: 15, destination: 14, timestamp: 250
+DEBUG (15): SendBlink to: 14
+DEBUG (14): QUEUE it to be relayed to 400 12
+DEBUG (14): SendBlink to: 12
+DEBUG (12): QUEUE it to be relayed to 400 0
+DEBUG (12): SendBlink to: 0
+522
+1
+DEBUG (0): 
+Route is :
+15	14	12	0	0	DEBUG (0): 
+Hop Delays are :
+0	111	208	203	0	DEBUG (18): Application booted (18).
+DEBUG (16): Generated Packet. source: 16, destination: 15, timestamp: 250
+DEBUG (16): SendBlink to: 15
+DEBUG (15): QUEUE it to be relayed to 400 14
+DEBUG (15): SendBlink to: 14
+DEBUG (14): QUEUE it to be relayed to 400 12
+DEBUG (14): SendBlink to: 12
+DEBUG (12): QUEUE it to be relayed to 400 0
+DEBUG (12): SendBlink to: 0
+635
+1
+DEBUG (0): 
+Route is :
+16	15	14	12	0	DEBUG (0): 
+Hop Delays are :
+0	105	110	216	204	DEBUG (19): Application booted (19).
+DEBUG (17): Generated Packet. source: 17, destination: 13, timestamp: 250
+DEBUG (17): SendBlink to: 13
+DEBUG (13): QUEUE it to be relayed to 400 12
+DEBUG (13): SendBlink to: 12
+DEBUG (12): QUEUE it to be relayed to 400 0
+DEBUG (12): SendBlink to: 0
+476
+1
+DEBUG (0): 
+Route is :
+17	13	12	0	0	DEBUG (0): 
+Hop Delays are :
+0	162	108	206	0	DEBUG (20): Application booted (20).
+DEBUG (18): Generated Packet. source: 18, destination: 14, timestamp: 250
+DEBUG (18): SendBlink to: 14
+DEBUG (14): QUEUE it to be relayed to 400 12
+DEBUG (14): SendBlink to: 12
+DEBUG (12): QUEUE it to be relayed to 400 0
+DEBUG (12): SendBlink to: 0
+574
+1
+DEBUG (0): 
+Route is :
+18	14	12	0	0	DEBUG (0): 
+Hop Delays are :
+0	156	210	208	0	DEBUG (21): Application booted (21).
+DEBUG (19): Generated Packet. source: 19, destination: 11, timestamp: 250
+DEBUG (19): SendBlink to: 11
+DEBUG (11): QUEUE it to be relayed to 400 12
+DEBUG (11): SendBlink to: 12
+DEBUG (12): QUEUE it to be relayed to 400 0
+DEBUG (12): SendBlink to: 0
+424
+1
+DEBUG (0): 
+Route is :
+19	11	12	0	0	DEBUG (0): 
+Hop Delays are :
+0	56	164	204	0	DEBUG (22): Application booted (22).
+DEBUG (20): Generated Packet. source: 20, destination: 21, timestamp: 250
+DEBUG (20): SendBlink to: 21
+DEBUG (21): QUEUE it to be relayed to 400 10
+DEBUG (21): SendBlink to: 10
+DEBUG (10): QUEUE it to be relayed to 400 0
+DEBUG (10): SendBlink to: 0
+276
+1
+DEBUG (0): 
+Route is :
+20	21	310	0	0	DEBUG (0): 
+Hop Delays are :
+0	163	109	4	0	DEBUG (10): SendBlink to: 0
+29
+1
+DEBUG (0): 
+Route is :
+0	0	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	29	0	0	0	DEBUG (23): Application booted (23).
+DEBUG (21): Generated Packet. source: 21, destination: 10, timestamp: 250
+DEBUG (21): SendBlink to: 10
+DEBUG (10): QUEUE it to be relayed to 400 0
+DEBUG (10): SendBlink to: 0
+113
+1
+DEBUG (0): 
+Route is :
+21	310	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	108	5	0	0	DEBUG (10): SendBlink to: 0
+117
+1
+DEBUG (0): 
+Route is :
+0	0	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	117	0	0	0	DEBUG (24): Application booted (24).
+DEBUG (22): Generated Packet. source: 22, destination: 21, timestamp: 250
+DEBUG (22): SendBlink to: 21
+DEBUG (21): QUEUE it to be relayed to 400 10
+DEBUG (21): SendBlink to: 10
+DEBUG (10): QUEUE it to be relayed to 400 0
+DEBUG (10): SendBlink to: 0
+216
+1
+DEBUG (0): 
+Route is :
+22	21	310	0	0	DEBUG (0): 
+Hop Delays are :
+0	107	108	1	0	DEBUG (10): SendBlink to: 0
+225
+1
+DEBUG (0): 
+Route is :
+0	0	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	225	0	0	0	DEBUG (25): Application booted (25).
+DEBUG (23): Generated Packet. source: 23, destination: 9, timestamp: 250
+DEBUG (23): SendBlink to: 9
+DEBUG (9): QUEUE it to be relayed to 400 0
+delayingDEBUG (9): SendBlink to: 0
+56
+1
+DEBUG (0): 
+Route is :
+23	209	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	27	29	0	0	DEBUG (26): Application booted (26).
+DEBUG (24): Generated Packet. source: 24, destination: 9, timestamp: 250
+DEBUG (24): SendBlink to: 9
+DEBUG (9): QUEUE it to be relayed to 400 0
+delayingDEBUG (9): SendBlink to: 0
+163
+1
+DEBUG (0): 
+Route is :
+24	209	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	129	34	0	0	DEBUG (25): Generated Packet. source: 25, destination: 9, timestamp: 250
+DEBUG (25): SendBlink to: 9
+DEBUG (9): QUEUE it to be relayed to 400 0
+delayingDEBUG (9): SendBlink to: 0
+263
+1
+DEBUG (0): 
+Route is :
+25	209	0	0	0	DEBUG (0): 
+Hop Delays are :
+0	236	27	0	0	DEBUG (26): Generated Packet. source: 26, destination: 25, timestamp: 250
+DEBUG (26): SendBlink to: 25
+DEBUG (25): QUEUE it to be relayed to 400 9
+DEBUG (25): SendBlink to: 9
+DEBUG (9): QUEUE it to be relayed to 400 0
+delayingDEBUG (9): SendBlink to: 0
+371
+1
+the delays are follows
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:
+number0:DEBUG (0): 
+Route is :
+26	25	209	0	0	DEBUG (0): 
+Hop Delays are :
+0	110	231	30	0	
